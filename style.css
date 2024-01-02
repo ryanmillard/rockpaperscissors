@@ -1,0 +1,48 @@
+h1 {
+    padding-top: 15px;
+}
+
+h1, h2, #scoreboard, #round-result {
+    text-align: center;
+    font-family: monospace;
+}
+
+#scoreboard {
+    font-size: 18px;
+}
+
+#round-result {
+    font-size: 16px;
+}
+
+.choice-list {
+    width: 100%;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.choice-button {
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+#rock-choice {
+    background-color: crimson;
+}
+
+#paper-choice {
+    background-color: cornflowerblue;
+}
+
+#scissors-choice {
+    background-color: green;
+}
